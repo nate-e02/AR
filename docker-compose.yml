@@ -1,19 +1,10 @@
 services:
   frontend:
-    build: ./index
+    build: ./frontend
     ports:
       - "3001:3000"
     volumes:
-      - ./index:/app
-      - /app/node_modules
-    stdin_open: true
-    tty: true
-  backend:
-    build: ./backend
-    ports:
-      - "3005:3005"
-    volumes:
-      - ./backend:/app
+      - ./frontend:/app
       - /app/node_modules
     stdin_open: true
     tty: true

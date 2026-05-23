@@ -14,3 +14,37 @@ processing/meshes/*
 *.fbx
 
 public/models/*.glb
+# dependencies
+node_modules
+
+# next
+.next
+out
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env
+.env
+.env.local
+
+# processing outputs
+processing/uploads/*
+processing/dense/*
+processing/sparse/*
+processing/meshes/*
+processing/exports/*
+
+# 3D assets
+*.ply
+*.obj
+*.fbx
+*.mtl
+
+# blender
+*.blend1
+
+# mac
+.DS_Store
