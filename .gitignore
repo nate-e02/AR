@@ -1,3 +1,16 @@
 node_modules
 .next
 .env
+node_modules
+.next
+
+processing/uploads/*
+processing/dense/*
+processing/sparse/*
+processing/meshes/*
+
+*.ply
+*.obj
+*.fbx
+
+public/models/*.glb
