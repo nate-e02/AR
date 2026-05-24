@@ -6,7 +6,8 @@
     "install:all": "npm install && cd server && npm install && cd ../client && npm install",
     "dev": "concurrently -n \"server,client\" -c \"yellow,cyan\" \"npm run dev:server\" \"npm run dev:client\"",
     "dev:server": "cd server && npm run dev",
-    "dev:client": "cd client && npm run dev"
+    "dev:client": "cd client && npm run dev",
+    "generate-qr": "cd server && node generate-qr.js"
   },
   "dependencies": {
     "@google/model-viewer": "^4.2.0"
