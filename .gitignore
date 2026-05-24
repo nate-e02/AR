@@ -1,34 +1,14 @@
-node_modules
-.next
+node_modules/
+dist/
 .env
-node_modules
-.next
-
-processing/uploads/*
-processing/dense/*
-processing/sparse/*
-processing/meshes/*
-
-*.ply
-*.obj
-*.fbx
-
-public/models/*.glb
-# dependencies
-node_modules
+.env.local
+.env.*.local
+*.log
+.DS_Store
 
 # next
 .next
 out
-
-# logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# env
-.env
-.env.local
 
 # processing outputs
 processing/uploads/*
@@ -42,9 +22,7 @@ processing/exports/*
 *.obj
 *.fbx
 *.mtl
-
-# blender
 *.blend1
 
-# mac
-.DS_Store
+# misc
+public/models/*.glb
